@@ -1,0 +1,155 @@
+    
+body{
+    background-image: url("../images/pokerfondo.jpg");
+
+}
+div{
+background-color: #f3ecf3;
+border: black 1px solid;
+height: 320px;
+width: 220px;
+padding: 30px 0 0 30px;
+position:absolute;
+font-size: 30px;
+border-radius: 17px;
+animation-name: rotateInDownLeft;
+animation-duration: 3s;
+}
+
+
+  @keyframes rotateInDownLeft {
+  
+  0% {
+      left: -10px;
+      top: -10px;
+  -webkit-transform-origin: left bottom;
+  transform-origin: top left;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(1, 1, 10, -45deg);
+  opacity: 0;
+  z-index: 60;
+  }
+  25% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  100%{
+      z-index: 100;
+  }
+  } 
+div:hover{
+    background-color: rgb(175, 168, 168);
+    z-index: 100;
+    height: 330px;
+    width: 230px;
+    padding: 30px 0 0 30px;
+    font-size: 30px;
+}
+
+.adiamond{
+transform: rotate(-20deg);
+color: red;
+left: 350px;
+top: 200px;
+z-index: 1;
+}
+.cuatropicas{
+transform: rotate(-5deg);
+left: 480px;
+top:130px;
+animation-delay:1s ;
+z-index: 2;
+}
+.seiscorazon{
+color: red;
+transform: rotate(5deg);
+left: 660px;
+top: 140px;
+animation-delay:2s ;
+z-index: 3;
+}
+.sietetrebol{
+transform: rotate(20deg);
+left: 800px;
+top: 220px;
+animation-delay:3s ;
+z-index: 4;
+}
+.inv{
+    transform: rotate(180deg); 
+    position:  absolute;
+    bottom: 0;
+    right: 20px;
+}
+.centroas{
+font-size: 100px;
+position:absolute;
+left: 100px;
+bottom: 25px;
+
+}
+
+.centrocuatrouno{
+font-size: 100px;
+position:absolute;
+left: 50px;
+top: -100px; 
+}
+.centrocuatrodos{
+    font-size: 100px;
+position:absolute;
+left: 150px;
+top: -100px;
+}
+.centrocuatrotres{
+    font-size: 100px;
+position:absolute;
+left: 50px;
+bottom: -100px; 
+transform: rotate(180deg);
+}
+.centrocuatrocuatro{
+    font-size: 100px;
+position:absolute;
+left: 150px;
+bottom:-100px; 
+transform: rotate(180deg);
+}
+
+.centroseiscinco{
+    font-size: 100px;
+position:absolute;
+left: 50px;
+bottom: 25px;
+}
+.centroseisseis{
+    font-size: 100px;
+position:absolute;
+left: 150px;
+bottom: 25px;
+}
+.centrosietesiete{
+font-size: 100px;
+position:absolute;
+left: 100px;
+bottom: 75px;
+}
+img{
+ 
+ border: -10px;
+   animation-name: img;
+   animation-duration:3s;
+   position: relative;
+}
+@keyframes img{
+  
+ 0%{
+z-index: 50;
+ }
+ 100%{
+z-index: 50;
+ }
+  } 
